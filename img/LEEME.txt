@@ -1,0 +1,13 @@
+Fotos tomadas de www.urn.edu.mx, recortadas y comprimidas para web.
+Para cambiar una foto, reemplaza el archivo conservando el mismo nombre.
+
+hero.jpg                   Portada (sujeto a la derecha)
+carrera-<id>.jpg           Tarjeta de carrera (vertical 4:5, ~900px)
+carrera-<id>-wide.jpg      Detalle de carrera (horizontal, ~1600px)
+   ids: derecho, comunicacion, psicologia, empresas, negocios, turismo, gastronomia, nutricion
+practica-1..4.jpg          Sección "Aprende haciendo"
+proyecto.jpg               Sección proyecto integrador
+campus.jpg                 Fondo del formulario final
+
+Recomendado: sustituir poco a poco por fotos propias de alumnos e instalaciones URN
+(laboratorios, cámara Gesell, estudio de TV, cocinas) para mayor autenticidad.

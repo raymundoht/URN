@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Admisiones URN | Tu futuro comienza en la URN</title>
+  <meta name="description" content="Estudia tu licenciatura en la URN: 3 materias por día, sin horarios quebrados, titulación automática y clases de lunes a viernes. Solicita información.">
+  <meta name="theme-color" content="#532570">
+  <meta property="og:title" content="Tu futuro comienza en la URN">
+  <meta property="og:description" content="3 materias por día. Sin horarios quebrados. Titulación automática. Clases de lunes a viernes.">
+  <meta property="og:image" content="img/hero.jpg">
+  <link rel="icon" href="URN_LOGO.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('preload');</script>
+  <noscript><style>.reveal-up,[data-lines] .line>span{opacity:1!important;transform:none!important}.reveal-clip{clip-path:none!important}</style></noscript>
+  <script src="config.js"></script>
+  <script src="tracking.js"></script>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="top">
+  <div class="wrap header__inner">
+    <a href="#top" class="header__logo" aria-label="URN Universidad – inicio">
+      <img src="URN_LOGO.png" alt="URN Universidad" class="logo logo--color">
+      <img src="URN_LOGO_BLANCO.png" alt="" class="logo logo--white" aria-hidden="true">
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#beneficios">Beneficios</a>
+      <a href="#carreras">Carreras</a>
+      <a href="#modelo">Modelo educativo</a>
+      <a href="#admisiones">Admisiones</a>
+    </nav>
+    <button class="pill pill--dark header__cta" data-open-lead data-source="header">Admisiones <span class="pill__dot"></span></button>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Menú móvil" hidden>
+    <a href="#beneficios"><span>01</span>Beneficios</a>
+    <a href="#carreras"><span>02</span>Carreras</a>
+    <a href="#modelo"><span>03</span>Modelo educativo</a>
+    <a href="#admisiones"><span>04</span>Admisiones</a>
+    <a href="#" data-vocational data-source="menu_movil" target="_blank" rel="noopener"><span>→</span>Examen vocacional</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============ 1. HERO ============ -->
+<section class="hero">
+  <div class="hero__frame" id="hero-frame">
+    <div class="hero__media photo" data-label="Foto: estudiantes URN">
+      <img src="img/hero.jpg" alt="Estudiante de la URN" fetchpriority="high">
+    </div>
+    <div class="hero__shade"></div>
+
+    <div class="wrap hero__inner">
+      <div class="hero__copy">
+        <p class="kicker kicker--light"><span class="live"></span>Admisiones abiertas</p>
+        <h1 class="hero__title" data-lines>
+          <span class="line"><span>Tu futuro</span></span>
+          <span class="line"><span>comienza</span></span>
+          <span class="line"><span>en la <span class="brand-word">URN.</span></span></span>
+        </h1>
+        <p class="hero__sub reveal-up">Estudia la carrera que quieres, con un modelo educativo práctico y horarios diseñados para aprovechar mejor tu día.</p>
+        <ul class="hero__chips reveal-up" aria-label="Beneficios URN">
+          <li>3 materias por día</li><li>Sin horarios quebrados</li><li>Titulación automática</li><li>Clases de lunes a viernes</li>
+        </ul>
+        <button class="pill pill--light pill--lg reveal-up" data-open-lead data-source="hero_boton">Quiero más información <span class="pill__arrow"><svg class="ic"><use href="#i-arrow"/></svg></span></button>
+      </div>
+
+      <div class="hero__form card-form reveal-up">
+        <p class="card-form__eyebrow">Solicitud de información</p>
+        <h2 class="card-form__title">¡Da el primer paso hacia tu futuro!</h2>
+        <form class="lead-form" data-source="hero_formulario" novalidate>
+          <div class="field">
+            <input id="hf-name" name="nombre" type="text" autocomplete="name" placeholder=" " required minlength="3">
+            <label for="hf-name">Nombre completo</label>
+          </div>
+          <div class="field">
+            <input id="hf-phone" name="telefono" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder=" " required>
+            <label for="hf-phone">WhatsApp / teléfono</label>
+          </div>
+          <div class="field field--select">
+            <select id="hf-career" name="carrera" required data-career-select></select>
+            <label for="hf-career">Carrera de interés</label>
+          </div>
+          <label class="consent">
+            <input type="checkbox" name="consentimiento" required checked>
+            <span>Acepto el <a href="#" data-open-privacy>aviso de privacidad</a> y ser contactado por un asesor.</span>
+          </label>
+          <button type="submit" class="pill pill--brand pill--block">Quiero que me contacten <span class="pill__arrow"><svg class="ic"><use href="#i-arrow"/></svg></span></button>
+        </form>
+      </div>
+    </div>
+
+    <ul class="hero__benefits wrap" aria-label="Beneficios URN">
+      <li><span>01</span>3 materias por día</li>
+      <li><span>02</span>Sin horarios quebrados</li>
+      <li><span>03</span>Titulación automática</li>
+      <li><span>04</span>Clases de lunes a viernes</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 2. BENEFICIOS ============ -->
+<section class="statement" id="beneficios">
+  <div class="wrap">
+    <div class="statement__head">
+      <p class="kicker kicker--light">¿Por qué estudiar en la URN?</p>
+      <h2 class="display display--light" data-lines>
+        <span class="line"><span>Más práctico.</span></span>
+        <span class="line"><span>Más sencillo.</span></span>
+        <span class="line"><span>Más <span class="brand-word">URN.</span></span></span>
+      </h2>
+      <p class="statement__sub reveal-up">Una forma de estudiar pensada para que te concentres en lo que verdaderamente importa: tu carrera y tu futuro.</p>
+    </div>
+
+    <div class="benefits">
+      <article class="benefit reveal-up">
+        <div class="benefit__big">3</div>
+        <div>
+          <span class="benefit__n">01</span>
+          <h3>3 materias por día</h3>
+          <p>Enfócate en menos materias al mismo tiempo para aprovechar mejor tus clases y organizar tus estudios.</p>
+        </div>
+      </article>
+      <article class="benefit reveal-up">
+        <div class="benefit__big"><svg class="ic"><use href="#i-clock"/></svg></div>
+        <div>
+          <span class="benefit__n">02</span>
+          <h3>Sin horarios quebrados</h3>
+          <p>Aprovecha mejor tu tiempo con horarios continuos, sin largos espacios entre clases.</p>
+        </div>
+      </article>
+      <article class="benefit reveal-up">
+        <div class="benefit__big"><svg class="ic"><use href="#i-grad"/></svg></div>
+        <div>
+          <span class="benefit__n">03</span>
+          <h3>Titulación automática</h3>
+          <p>Conoce el modelo de titulación de la URN y termina tu carrera con un proyecto que integra lo aprendido.</p>
+        </div>
+      </article>
+      <article class="benefit reveal-up">
+        <div class="benefit__big benefit__big--txt">L–V</div>
+        <div>
+          <span class="benefit__n">04</span>
+          <h3>Clases de lunes a viernes</h3>
+          <p>Organiza tu semana de estudio y aprovecha tus fines de semana para tus actividades personales.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="statement__cta">
+      <button class="pill pill--light pill--lg" data-open-lead data-source="beneficios">Quiero conocer la URN <span class="pill__arrow"><svg class="ic"><use href="#i-arrow"/></svg></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. CARRERAS ============ -->
+<section class="programs" id="carreras">
+  <div class="wrap">
+    <div class="programs__head">
+      <div>
+        <p class="kicker">Conoce nuestras carreras</p>
+        <h2 class="display" data-lines>
+          <span class="line"><span>Encuentra la carrera</span></span>
+          <span class="line"><span>que <em>va contigo.</em></span></span>
+        </h2>
+      </div>
+      <p class="programs__sub reveal-up">Descubre las opciones académicas de la URN y comienza a construir tu futuro profesional.</p>
+    </div>
+
+    <div class="programs__bar">
+      <div class="tabs" role="tablist" aria-label="Filtrar carreras">
+        <button role="tab" class="tab is-on" data-filter="all" aria-selected="true">Todas</button>
+        <button role="tab" class="tab" data-filter="negocios" aria-selected="false">Negocios</button>
+        <button role="tab" class="tab" data-filter="personas" aria-selected="false">Personas y salud</button>
+        <button role="tab" class="tab" data-filter="creativas" aria-selected="false">Creativas</button>
+      </div>
+      <div class="arrows">
+        <button class="circle" data-scroll="-1" aria-label="Anterior"><svg class="ic ic--flip"><use href="#i-arrow"/></svg></button>
+        <button class="circle" data-scroll="1" aria-label="Siguiente"><svg class="ic"><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <div class="programs__track" id="career-grid"><!-- generado por app.js --></div>
+  <div class="wrap"><div class="progress"><span id="career-progress"></span></div></div>
+</section>
+
+<!-- ============ EXAMEN VOCACIONAL ============ -->
+<section class="voc" id="vocacional">
+  <div class="wrap voc__inner">
+    <div class="voc__copy">
+      <p class="kicker kicker--light">Examen vocacional</p>
+      <h2 class="display display--light" data-lines>
+        <span class="line"><span>¿Aún no</span></span>
+        <span class="line"><span>sabes qué</span></span>
+        <span class="line"><span>estudiar?</span></span>
+      </h2>
+      <p class="voc__sub reveal-up">Responde nuestro examen vocacional y descubre qué carrera de la URN va más contigo.</p>
+    </div>
+    <div class="voc__action reveal-up">
+      <a href="#" class="pill pill--light pill--lg" data-vocational data-source="seccion_vocacional" target="_blank" rel="noopener">Hacer examen vocacional <span class="pill__arrow"><svg class="ic"><use href="#i-arrow"/></svg></span></a>
+      <p class="voc__note">Se abre en una nueva pestaña</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. APRENDE HACIENDO (paneles apilados) ============ -->
+<section class="model" id="modelo">
+  <div class="wrap">
+    <div class="model__head">
+      <p class="kicker">Aprende haciendo</p>
+      <h2 class="display" data-lines>
+        <span class="line"><span>Aquí no solo estudias.</span></span>
+        <span class="line"><span><em>Te preparas</em> para el mundo real.</span></span>
+      </h2>
+    </div>
+
+    <div class="stack">
+      <article class="panel panel--1">
+        <div class="panel__text">
+          <span class="panel__n">01 / 04</span>
+          <h3>70% práctico<br>30% teórico</h3>
+          <div class="ratio" aria-label="Modelo educativo: 70% práctico, 30% teórico">
+            <div class="ratio__bar"><span></span></div>
+            <div class="ratio__lbl"><span>Práctica</span><span>Teoría</span></div>
+          </div>
+          <p>El modelo educativo URN pone la práctica al centro: laboratorios, estudios y proyectos reales en cada semestre.</p>
+        </div>
+        <div class="panel__img photo" data-label="Foto: laboratorio"><img src="img/practica-1.jpg" alt="Alumnos URN trabajando en un proyecto" loading="lazy"></div>
+      </article>
+      <article class="panel panel--2">
+        <div class="panel__text">
+          <span class="panel__n">02 / 04</span>
+          <h3>Aprende desde el primer semestre.</h3>
+          <p>Desde el inicio trabajas con herramientas, casos y espacios propios de tu profesión.</p>
+        </div>
+        <div class="panel__img photo" data-label="Foto: clase práctica"><img src="img/practica-2.jpg" alt="Alumnos URN colaborando" loading="lazy"></div>
+      </article>
+      <article class="panel panel--3">
+        <div class="panel__text">
+          <span class="panel__n">03 / 04</span>
+          <h3>Materias enfocadas en tu carrera, sin tronco común.</h3>
+          <p>Cada materia suma a lo que quieres ser. Sin rodeos, sin semestres de relleno.</p>
+        </div>
+        <div class="panel__img photo" data-label="Foto: salón de clase"><img src="img/practica-3.jpg" alt="Salón de clases URN" loading="lazy"></div>
+      </article>
+      <article class="panel panel--4">
+        <div class="panel__text">
+          <span class="panel__n">04 / 04</span>
+          <h3>Profesores con experiencia profesional.</h3>
+          <p>Aprende de quienes ejercen todos los días lo que te enseñan.</p>
+          <button class="pill pill--light" data-open-lead data-source="modelo">Quiero ser parte de la URN <span class="pill__arrow"><svg class="ic"><use href="#i-arrow"/></svg></span></button>
+        </div>
+        <div class="panel__img photo" data-label="Foto: docente"><img src="img/practica-4.jpg" alt="Docente URN en clase" loading="lazy"></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Cifras (refuerzo de beneficios) ============ -->
+<section class="figures">
+  <div class="wrap figures__grid">
+    <div class="figure reveal-up"><strong>3</strong><span>Materias por día</span><p>Menos materias a la vez, más enfoque.</p></div>
+    <div class="figure reveal-up"><strong>0</strong><span>Horarios quebrados</span><p>Clases continuas, sin huecos largos.</p></div>
+    <div class="figure reveal-up"><strong>70%</strong><span>Práctica</span><p>Aprendes haciendo desde el inicio.</p></div>
+    <div class="figure reveal-up"><strong>5</strong><span>Días de clase</span><p>De lunes a viernes. Tu fin de semana es tuyo.</p></div>
+  </div>
+</section>
+
+<!-- ============ 5. PROYECTO INTEGRADOR ============ -->
+<section class="project">
+  <svg class="project__curve" viewBox="0 0 600 900" preserveAspectRatio="none" aria-hidden="true">
+    <path id="curve" d="M560 -20 C 300 160, 520 360, 260 520 S 40 760, 120 940" fill="none" stroke="currentColor" stroke-width="2"/>
+  </svg>
+  <div class="wrap project__inner">
+    <div class="project__copy">
+      <p class="kicker kicker--light">De la universidad al mundo profesional</p>
+      <h2 class="display display--light" data-lines>
+        <span class="line"><span>Termina tu carrera</span></span>
+        <span class="line"><span><em>creando algo real.</em></span></span>
+      </h2>
+      <p class="project__p reveal-up">Al finalizar sus estudios, los alumnos de diferentes licenciaturas pueden trabajar juntos en el desarrollo de una idea de negocio, aportando los conocimientos de su especialidad.</p>
+      <p class="project__p reveal-up">Desde Derecho y Comunicación hasta Gastronomía, Nutrición y Negocios Internacionales.</p>
+      <ul class="tags reveal-up" aria-label="Carreras participantes">
+        <li>Derecho</li><li>Comunicación</li><li>Psicología</li><li>Empresas</li><li>Negocios Int.</li><li>Turismo</li><li>Gastronomía</li><li>Nutrición</li>
+      </ul>
+      <p class="project__tag reveal-up">Un proyecto. Diferentes carreras. <em>Experiencia real.</em></p>
+      <a href="#admisiones" class="pill pill--light pill--lg reveal-up">Conoce cómo inscribirte <span class="pill__arrow"><svg class="ic"><use href="#i-arrow"/></svg></span></a>
+    </div>
+    <div class="project__img photo reveal-clip" data-label="Foto: equipo multidisciplinario"><img src="img/proyecto.jpg" alt="Alumnos de distintas carreras trabajando en un proyecto" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- ============ 6. FORMULARIO FINAL ============ -->
+<section class="final" id="admisiones">
+  <div class="wrap final__inner">
+    <div class="final__copy">
+      <p class="kicker">Admisiones</p>
+      <h2 class="display" data-lines>
+        <span class="line"><span>Tu siguiente paso</span></span>
+        <span class="line"><span><em>comienza aquí.</em></span></span>
+      </h2>
+      <p class="final__sub reveal-up">Déjanos tus datos y un asesor de admisiones de la URN se pondrá en contacto contigo para brindarte información sobre tu carrera de interés.</p>
+      <div class="final__img photo reveal-clip" data-label="Foto: campus URN"><img src="img/campus.jpg" alt="Campus URN" loading="lazy"></div>
+    </div>
+
+    <div class="card-form card-form--final">
+      <form class="lead-form" data-source="formulario_final" novalidate>
+        <div class="field">
+          <input id="ff-name" name="nombre" type="text" autocomplete="name" placeholder=" " required minlength="3">
+          <label for="ff-name">Nombre completo</label>
+        </div>
+        <div class="field">
+          <input id="ff-phone" name="telefono" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder=" " required>
+          <label for="ff-phone">Número de WhatsApp</label>
+        </div>
+        <div class="field field--select">
+          <select id="ff-career" name="carrera" required data-career-select></select>
+          <label for="ff-career">Carrera que te interesa</label>
+        </div>
+        <label class="consent">
+          <input type="checkbox" name="consentimiento" required>
+          <span>He leído y acepto el <a href="#" data-open-privacy>aviso de privacidad</a> y autorizo a la URN a contactarme por WhatsApp, teléfono o correo para fines informativos.</span>
+        </label>
+        <button type="submit" class="pill pill--brand pill--block pill--xl">Solicitar información <span class="pill__arrow"><svg class="ic"><use href="#i-arrow"/></svg></span></button>
+      </form>
+      <div class="wa-alt">
+        <p>¿Prefieres hablar directamente?</p>
+        <a href="#" class="pill pill--wa pill--block" data-whatsapp data-source="formulario_final"><svg class="ic"><use href="#i-wa"/></svg> Hablar por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="footer__big" aria-hidden="true">3 materias por día · Sin horarios quebrados · Titulación automática · Clases de lunes a viernes</p>
+    <div class="footer__grid">
+      <div>
+        <img src="URN_LOGO_BLANCO.png" alt="URN Universidad" class="footer__logo">
+      </div>
+      <div>
+        <h4>Navega</h4>
+        <a href="#beneficios">Beneficios</a><a href="#carreras">Carreras</a><a href="#modelo">Modelo educativo</a><a href="#admisiones">Admisiones</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <a href="#" data-whatsapp data-source="footer">WhatsApp de admisiones</a>
+        <a href="#" data-open-lead data-source="footer">Solicitar información</a>
+        <a href="#" data-vocational data-source="footer" target="_blank" rel="noopener">Examen vocacional</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="#" data-open-privacy>Aviso de privacidad</a>
+      </div>
+    </div>
+    <p class="footer__legal">© <span id="year"></span> URN Universidad</p>
+  </div>
+</footer>
+
+<!-- Botón fijo móvil -->
+<div class="sticky-cta">
+  <button class="pill pill--brand pill--block" data-open-lead data-source="sticky_movil">Solicitar información</button>
+  <a href="#" class="sticky-cta__wa" data-whatsapp data-source="sticky_movil" aria-label="Hablar por WhatsApp"><svg class="ic"><use href="#i-wa"/></svg></a>
+</div>
+
+<!-- ============ MODAL: DETALLE DE CARRERA ============ -->
+<dialog class="modal modal--career" id="career-modal" aria-labelledby="cm-title" data-lenis-prevent>
+  <button class="modal__close" data-close aria-label="Cerrar"><svg class="ic"><use href="#i-x"/></svg></button>
+  <div class="cm">
+    <div class="photo cm__media" id="cm-media"><img id="cm-img" alt=""></div>
+    <div class="cm__body">
+      <p class="kicker">Licenciatura · 70% práctica</p>
+      <h2 id="cm-title" class="cm__title"></h2>
+      <p class="cm__hook" id="cm-hook"></p>
+      <p class="cm__desc" id="cm-desc"></p>
+      <ul class="cm__diffs" id="cm-diffs"></ul>
+      <div class="cm__form">
+        <h3>Recibe información de <em id="cm-short"></em></h3>
+        <form class="lead-form" data-source="detalle_carrera" novalidate>
+          <input type="hidden" name="carrera" id="cm-career">
+          <div class="field">
+            <input id="cm-name" name="nombre" type="text" autocomplete="name" placeholder=" " required minlength="3">
+            <label for="cm-name">Nombre completo</label>
+          </div>
+          <div class="field">
+            <input id="cm-phone" name="telefono" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder=" " required>
+            <label for="cm-phone">WhatsApp / teléfono</label>
+          </div>
+          <label class="consent">
+            <input type="checkbox" name="consentimiento" required checked>
+            <span>Acepto el <a href="#" data-open-privacy>aviso de privacidad</a> y ser contactado por un asesor.</span>
+          </label>
+          <button type="submit" class="pill pill--brand pill--block">Solicitar información <span class="pill__arrow"><svg class="ic"><use href="#i-arrow"/></svg></span></button>
+        </form>
+        <a href="#" class="pill pill--ghost pill--block" data-whatsapp data-source="detalle_carrera" id="cm-wa"><svg class="ic"><use href="#i-wa"/></svg> Prefiero WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<!-- ============ MODAL: FORMULARIO RÁPIDO ============ -->
+<dialog class="modal modal--lead" id="lead-modal" aria-labelledby="lm-title" data-lenis-prevent>
+  <button class="modal__close" data-close aria-label="Cerrar"><svg class="ic"><use href="#i-x"/></svg></button>
+  <div class="lm">
+    <p class="card-form__eyebrow">Solicitud de información</p>
+    <h2 id="lm-title" class="card-form__title">¡Da el primer paso hacia tu futuro!</h2>
+    <form class="lead-form" data-source="modal" novalidate>
+      <div class="field">
+        <input id="lm-name" name="nombre" type="text" autocomplete="name" placeholder=" " required minlength="3">
+        <label for="lm-name">Nombre completo</label>
+      </div>
+      <div class="field">
+        <input id="lm-phone" name="telefono" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder=" " required>
+        <label for="lm-phone">WhatsApp / teléfono</label>
+      </div>
+      <div class="field field--select">
+        <select id="lm-career" name="carrera" required data-career-select></select>
+        <label for="lm-career">Carrera de interés</label>
+      </div>
+      <label class="consent">
+        <input type="checkbox" name="consentimiento" required checked>
+        <span>Acepto el <a href="#" data-open-privacy>aviso de privacidad</a> y ser contactado por un asesor.</span>
+      </label>
+      <button type="submit" class="pill pill--brand pill--block pill--xl">Quiero que me contacten <span class="pill__arrow"><svg class="ic"><use href="#i-arrow"/></svg></span></button>
+    </form>
+    <a href="#" class="pill pill--ghost pill--block" data-whatsapp data-source="modal"><svg class="ic"><use href="#i-wa"/></svg> Prefiero hablar por WhatsApp</a>
+  </div>
+</dialog>
+
+<!-- ============ MODAL: AVISO DE PRIVACIDAD ============ -->
+<dialog class="modal modal--privacy" id="privacy-modal" aria-labelledby="pm-title" data-lenis-prevent>
+  <button class="modal__close" data-close aria-label="Cerrar"><svg class="ic"><use href="#i-x"/></svg></button>
+  <div class="pm">
+    <h2 id="pm-title">Aviso de privacidad simplificado</h2>
+    <!-- REEMPLAZAR con el texto oficial del aviso de privacidad de la URN -->
+    <p>URN Universidad es responsable del tratamiento de los datos personales que nos proporciones (nombre, número telefónico y carrera de interés), los cuales serán utilizados para contactarte y brindarte información sobre nuestros programas académicos y el proceso de admisión.</p>
+    <p>Puedes ejercer tus derechos de Acceso, Rectificación, Cancelación y Oposición (ARCO) o revocar tu consentimiento en cualquier momento. Consulta el aviso de privacidad integral en <a href="#" id="privacy-full-link" target="_blank" rel="noopener">nuestro sitio oficial</a>.</p>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden>
+  <div class="toast__icon"><svg class="ic"><use href="#i-check"/></svg></div>
+  <div><strong>¡Listo, <span id="toast-name"></span>!</strong><p>Un asesor de admisiones te contactará muy pronto.</p></div>
+</div>
+
+<!-- ============ ICONOS ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+    <symbol id="i-grad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 9 12 4 2 9l10 5 10-5Z"/><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 9v6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.4 5 5.2-1.36A9.9 9.9 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.09.81.83-3.01-.2-.31a8.2 8.2 0 1 1 6.94 3.84Zm4.5-6.14c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.55.12-.16.25-.63.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 0 1-3.34-2.92c-.25-.43.25-.4.72-1.34.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.74 2.74 0 0 0-.86 2.04 4.76 4.76 0 0 0 1 2.53 10.9 10.9 0 0 0 4.18 3.69c1.55.67 2.16.73 2.94.61.47-.07 1.46-.6 1.66-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  </defs>
+</svg>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
